@@ -1,0 +1,24 @@
+#user-bar {
+    font-size: 10px;
+    font-weight: 140 px;
+    background:none;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    position: relative;
+    #buttontoolbar {
+       position: relative;
+       left: 80%;
+      #login {
+        font-size: 100px;
+        font-weight: 100px;
+        margin: 0 0 10px;
+        position: relative;
+  
+        &:hover {
+          font-size: 36px;
+          background: black;
+          position: relative;
+        }
+      }
+    }
+  }

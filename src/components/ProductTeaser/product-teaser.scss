@@ -1,0 +1,20 @@
+.product-teaser {
+  .image {
+    width: 180px;
+    height: 180px;
+    img {
+      max-height: 100%;
+      max-width: 100%;
+    }
+  }
+
+  a{
+   .title-teaser{ text-align: left;
+    padding: 5px 0 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(233, 236, 216);
+    font-size: 16px;
+   }
+    }
+  }
+

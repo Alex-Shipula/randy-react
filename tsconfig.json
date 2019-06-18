@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "lib": ["es5", "es2015", "dom", "scripthost"],
+    "baseUrl": "./src",
+    "rootDir": "./src",
+    "paths": {
+      "@actions": ["./actions"],
+      "@models": ["./models"],
+      "@dto": ["./dto"],
+      "@reducers": ["./reducers"],
+      "@components/*": ["./components/*"],
+      "@entities/*": ["./entities/*"]
+    }
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"]
+}
